@@ -13,6 +13,3 @@
     **Jochimin Contreras G - 2019-05041**
      **Mijarex Lopez  G   -2018-10084**
      **Chantal De Jesus -  2018-10547**
-     ** Fulanito 20     - 2018-00001**
-     ** Fulanito Quiere pasar - 2018-00002**
-
