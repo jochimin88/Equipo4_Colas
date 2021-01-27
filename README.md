@@ -10,4 +10,4 @@
  - **Eliminar elemento de mayor prioridad**
  
  # Participantes:
-     **Jochimin Contreras - 2019-05041**
+     **Jochimin Contreras- 2019-05041**
