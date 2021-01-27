@@ -10,8 +10,8 @@
  - **Eliminar elemento de mayor prioridad**
  
  # Participantes:
-    ** Jochimin Contreras G  - 2019-05041**
-    ** Mijarex Lopez  G      - 2018-10084**
-    ** Chantal De Jesus      - 2018-10547**
-    ** Josué F. Contreras    - 2018-09515**
-    ** Dionicio polanco p     -2019-00567**
+    **Jochimin Contreras G  - 2019-05041**
+    **Mijarex Lopez  G      - 2018-10084**
+    **Chantal De Jesus      - 2018-10547**
+    **Josué F. Contreras    - 2018-09515**
+    **Dionicio polanco p     -2019-00567**
