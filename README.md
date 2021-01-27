@@ -12,3 +12,4 @@
  # Participantes:
      **Jochimin Contreras- 2019-05041**
      **Mijarex Lopez  G   -2018-10084**
+     **Chantal De Jesus -  2018-10547**
