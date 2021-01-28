@@ -15,6 +15,7 @@
     **Chantal De Jesus      - 2018-10547**
     **Josué F. Contreras    - 2018-09515**
     **Dionicio polanco p     -2019-00567**
-    **Joselito Beriguete N  - 2018-08927**  
-**Francelys Guzman**
-   ** Francelys Guzman - 2018-08927**
+    **Joselito Beriguete N  - 2018-08927** 
+    **Francelys Guzman    -   2018-08927**
+
+  
