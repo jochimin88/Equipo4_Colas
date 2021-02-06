@@ -6,8 +6,8 @@
 - **Leer un elemento en una cola**
  
  - **Cola con prioridad:**
- - __Añadir con prioridad__
- - **Eliminar elemento de mayor prioridad**
+    - __Añadir con prioridad__
+    - **Eliminar elemento de mayor prioridad**
  
  # Participantes:
     **Jochimin Contreras G  - 2019-05041**
