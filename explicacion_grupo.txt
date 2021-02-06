@@ -1,0 +1,39 @@
+Las Colas.
+
+ Una cola (queue) es una variante de las pilas y, como ella, es también un tipo abstracto de dato
+ Representa una estructura de datos FIFO, del inglés, First In, First Out, donde el primer elemento 
+ en entrar (First in)  es también el primer elemento en salir (First Out), al contrario de lo que
+ sucede con las pilas (stacks) que, como acabamos de ver, representa una estructura de datos LIFO,
+ donde el último elemento en entrar es también el primero en salir.
+
+
+La particularidad de una estructura de datos de cola es el hecho de que solo podemos acceder al primer
+y al último elemento de la estructura. Así mismo, los elementos solo se pueden eliminar por el principio
+y solo se pueden añadir por el final de la cola.
+
+
+Ejemplos de colas en la vida real serían: 
+
+personas comprando en un supermercado, esperando para entrar a ver un partido de béisbol, esperando en el cine para ver una película,
+una pequeña peluquería, etc. La idea esencial es que son todos líneas de espera. 
+
+
+
+
+
+¿Qué es una lista?
+
+Una lista es una estructura de datos y un tipo de dato en python con características especiales. 
+Lo especial de las listas en Python es que nos permiten almacenar cualquier tipo de valor como enteros,
+cadenas y hasta otras funciones; por ejemplo:
+
+lista = [1, 2.5, 'Chantal', 30, 4]
+
+Una lista es un arreglo de elementos donde podemos ingresar cualquier tipo de dato, para acceder a estos
+datos podemos hacer mediante un índice.
+
+print(lista[0]) # 1
+print(lista[1]) # 2.5
+print(lista[2]) # Chantal
+
+
