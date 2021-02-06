@@ -1,4 +1,10 @@
-Las Colas.
+####################################
+##       Chantal De Jesus          #
+####################################
+
+####################################
+######### Las Colas. ###############
+####################################
 
  Una cola (queue) es una variante de las pilas y, como ella, es también un tipo abstracto de dato
  Representa una estructura de datos FIFO, del inglés, First In, First Out, donde el primer elemento 
@@ -18,22 +24,81 @@ personas comprando en un supermercado, esperando para entrar a ver un partido de
 una pequeña peluquería, etc. La idea esencial es que son todos líneas de espera. 
 
 
+#####################################################################################################################################################
+################################
+#                              #
+################################
 
-
-
-¿Qué es una lista?
+########################################
+########## ¿Qué es una lista? ##########
+########################################
 
 Una lista es una estructura de datos y un tipo de dato en python con características especiales. 
 Lo especial de las listas en Python es que nos permiten almacenar cualquier tipo de valor como enteros,
 cadenas y hasta otras funciones; por ejemplo:
 
-lista = [1, 2.5, 'Chantal', 30, 4]
+milista = [1, 2.5, 'Chantal', 30, 4]
 
 Una lista es un arreglo de elementos donde podemos ingresar cualquier tipo de dato, para acceder a estos
 datos podemos hacer mediante un índice.
 
-print(lista[0]) # 1
-print(lista[1]) # 2.5
-print(lista[2]) # Chantal
+print(milista[0]) # 1
+print(milista[1]) # 2.5
+print(milista[2]) # Chantal
+
+#####################################
+###### Métodos de las Listas ########
+#####################################
+
+
+Las listas en Python  tienen muchos métodos que podemos utilizar, entre todos ellos vamos a nombrar los más importantes. 
+Para esto utilizaremos esta lista de ejemplo.
+
+
+## Append() ##
+Este método nos permite agregar nuevos elementos a una lista.
+
+milista.append(10) # [2, 5, 'Grupo4', 1.2, 5, 10]
+milista.append([2,5]) # [2, 5, 'Grupo4', 1.2, 5, [2, 5]]
+
+Podemos agregar cualquier tipo de elemento a una lista, pero tengan en cuenta lo que pasa cuando agregamos una 
+lista dentro de otra, esta lista se agrega como uno y solo un elemento.
+
+## Extend() ##
+
+Extend también nos permite agregar elementos dentro de una lista, pero a diferencia de append al momento 
+de agregar una lista, cada elemento de esta lista se agrega como un elemento más dentro de la otra lista.
+
+milista.extend([2,5]) # [2, 5, 'Grupo4', 1.2, 5, 2, 5]
+
+## Remove() ##
+
+El método remove va a remover un elemento que se le pase como parámentro de la lista a donde se le esté aplicando.
+
+milista.remove(2) # [5, 'Grupo4', 1.2, 5]
+
+En este ejemplo estamos removiendo el elemento 2, de la lista que tiene por nombre "milista".
+
+## Index() ##
+
+Index devuelve el número de indice del elemento que le pasemos por parámetro.
+
+milista.index('Grupo4') # 2
+
+Aquí estamos preguntando por el indice de la cadena 'DevCode' dentro de la lista "milista", esto devuelve 2.
+
+## Count() ##
+
+Para saber cuántas veces un elemento de una lista se repite podemos utilizar el metodo count().
+
+milista.count(5) # 2
+
+Contamos cuantas veces se repite el número 5 dentro de la lista, y esto devuelve 2.
+
+## Reverse() ##
+
+También podemos invertir los elementos  de una lista.
+milista.reverse() # [5, 1.2, 'Grupo4', 5, 2]
+
 
 
