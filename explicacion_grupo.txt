@@ -51,7 +51,7 @@ print(milista[2]) # Chantal
 ######################################################################################################################################
 
 ################################
-######### Joselito #############
+######### Joselito y Francelys #
 ################################
 
 
@@ -90,6 +90,8 @@ milista.remove(2) # [5, 'Grupo4', 1.2, 5]
 
 En este ejemplo estamos removiendo el elemento 2, de la lista que tiene por nombre "milista".
 
+
+
 ## Index() ##
 
 Index devuelve el número de indice del elemento que le pasemos por parámetro.
@@ -113,4 +115,33 @@ También podemos invertir los elementos  de una lista.
 milista.reverse() 
 
 # [5, 1.2, 'Grupo4', 5, 2]
+
+
+################################
+######### Jochimin #############
+################################
+
+# Codigo de ejemplo.......
+
+◦ Añadir elemento en una cola
+◦ Leer un elemento en una cola
+
+################################
+######## Mijarex y Josue #######
+################################
+
+# Codigo de ejemplo.......
+
+◦ Cola con prioridad:
+   ▪ Añadir con prioridad
+   ▪ Eliminar elemento de mayor prioridad
+ 
+
+
+
+
+
+
+
+
 
