@@ -24,7 +24,7 @@ personas comprando en un supermercado, esperando para entrar a ver un partido de
 una pequeña peluquería, etc. La idea esencial es que son todos líneas de espera. 
 
 
-#####################################################################################################################################################
+######################################################################################################################################
 ################################
 #                              #
 ################################
@@ -56,7 +56,9 @@ Para esto utilizaremos esta lista de ejemplo.
 
 
 ## Append() ##
-Este método nos permite agregar nuevos elementos a una lista.
+Sirve para agregar un elemento al final de una lista en python, es muy sencillo utilizarlo,
+solo se coloca el nombre de ella que vamos a modificar seguido de un punto, el método (append en este caso) 
+y luego entre paréntesis el elemento a agregar.
 
 milista.append(10) # [2, 5, 'Grupo4', 1.2, 5, 10]
 milista.append([2,5]) # [2, 5, 'Grupo4', 1.2, 5, [2, 5]]
@@ -83,7 +85,8 @@ En este ejemplo estamos removiendo el elemento 2, de la lista que tiene por nomb
 
 Index devuelve el número de indice del elemento que le pasemos por parámetro.
 
-milista.index('Grupo4') # 2
+milista.index('Grupo4')
+# 2
 
 Aquí estamos preguntando por el indice de la cadena 'DevCode' dentro de la lista "milista", esto devuelve 2.
 
@@ -98,7 +101,7 @@ Contamos cuantas veces se repite el número 5 dentro de la lista, y esto devuelv
 ## Reverse() ##
 
 También podemos invertir los elementos  de una lista.
-milista.reverse() # [5, 1.2, 'Grupo4', 5, 2]
+milista.reverse() 
 
-
+# [5, 1.2, 'Grupo4', 5, 2]
 
