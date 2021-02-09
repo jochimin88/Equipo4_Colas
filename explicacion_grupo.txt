@@ -93,36 +93,35 @@ diasLaborables.extend(['8am, 5pm']) # ['Lunes', 'Martes', 'Miércoles', 'Jueves'
 
 El método remove va a remover un elemento que se le pase como parámentro de la lista a donde se le esté aplicando.
 
-milista.remove(2) # [5, 'Grupo4', 1.2, 5]
+diasLaborables.remove("Lunes")
+print(diasLaborables)
 
+# Resultado
+#['Martes', 'Miércoles', 'Jueves', 'Viernes', ['dias_no_laborables', ['Sab', 'Dom']], '8am,5pm']
 En este ejemplo estamos removiendo el elemento 2, de la lista que tiene por nombre "milista".
-
-
 
 ## Index() ##
 
 Index devuelve el número de indice del elemento que le pasemos por parámetro.
 
-milista.index('Grupo4')
-# 2
+diasLaborables.index('Lunes')
 
-Aquí estamos preguntando por el indice de la cadena 'DevCode' dentro de la lista "milista", esto devuelve 2.
+# Como resultado trae el indice 0, porque el "Lunes" se encuentra dentro de la lista,
+# en caso de no estar este devuelve un error de ValueError o error de valor.
 
 ## Count() ##
 
 Para saber cuántas veces un elemento de una lista se repite podemos utilizar el metodo count().
 
-milista.count(5) # 2
-
-Contamos cuantas veces se repite el número 5 dentro de la lista, y esto devuelve 2.
+milista.count("Martes") 
+# Nos devuelve 1, porque el "Martes" dentro de la lista solo esta una sola vez.
 
 ## Reverse() ##
 
 También podemos invertir los elementos  de una lista.
 milista.reverse() 
 
-# [5, 1.2, 'Grupo4', 5, 2]
-
+# ['8am,5pm', ['dias_no_laborables', ['Sab', 'Dom']], 'Viernes', 'Jueves', 'Miércoles', 'Martes', 'Lunes']
 
 ################################
 ######### Jochimin #############
