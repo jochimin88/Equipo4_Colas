@@ -87,21 +87,23 @@ class Cola:
             print("Cola con elementos", self.mi_cola)
             
  # Agregamos elementos a la cola.
-    # agrega elementos al final de nuestra lista.
+ # agrega elementos al final de nuestra lista.
     def agregar(self, mi_cola):
         self.mi_cola.append(mi_cola)
 
 
-    # Eliminamos elementos que estan en la cola.
-    # para esto utilizamos el metodo pop() pero 
-    # este metodo sacara de la lista el ultimo 
-    # elemento que se agrego por tal razon para
-    # evitar este comportamiento le pasaremos como
-    # paramentro el indice 0 de nuestra lista
-    # de esta manera sacara el primer elemento de ella.
+# Eliminamos elementos que estan en la cola.
+# para esto utilizamos el metodo pop() pero 
+# este metodo sacara de la lista el ultimo 
+# elemento que se agrego por tal razon para
+# evitar este comportamiento le pasaremos como
+# paramentro el indice 0 de nuestra lista
+# de esta manera sacara el primer elemento de ella.
     def eliminar(self):
         try:
             self.mi_cola.pop(0)
             print("removido", self.mi_cola)
         except IndexError:
             print("Ya la lista esta completamente vacia!")
+
+            
