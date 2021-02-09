@@ -21,3 +21,23 @@ if not mi_cola:
     print("Cola Vacia!")
 else:
     print("Cola con elementos", mi_cola)
+    
+# Anadir elementos a la cola.
+
+# Para anadir elementos a una cola necesitamos el metodo append()
+# Este metodo agrega un elemento al final de una lista.
+
+# aqui agragamos el elemento numero 1 a nuestra cola
+# y asi sucecivamente vamos agregamos.
+
+mi_cola.append("Joselito")
+mi_cola.append("Chantal")
+mi_cola.append("Josue")
+mi_cola.append("Mijarex")
+mi_cola.append("Francelys")
+mi_cola.append("Jochimin")
+mi_cola.append("Polanco")
+
+# Mostramos el resultado en pantalla.
+
+print(mi_cola)
