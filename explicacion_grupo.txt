@@ -87,7 +87,7 @@ print(diasLaborables) # ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', [
 Extend también nos permite agregar elementos dentro de una lista, pero a diferencia de append al momento 
 de agregar una lista, cada elemento de esta lista se agrega como un elemento más dentro de la otra lista.
 
-diasLaborables.extend([8am,5pm]) # ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', ['dias_no_laborables', ['Sab', 'Dom']], '8am, 5pm']
+diasLaborables.extend(['8am, 5pm']) # ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', ['dias_no_laborables', ['Sab', 'Dom']], '8am, 5pm']
 
 ## Remove() ##
 
