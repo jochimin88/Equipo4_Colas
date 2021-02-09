@@ -63,3 +63,25 @@ mi_cola[3] # El Resultado sera "Joselito", porque los arreglos comienzan en cero
 # Para realizar algo mas dinamico con las listas
 # crearemos una clase llamada Cola y agregaremos metodos
 # para interactuar y personalizar los metodos ya existentes de las listas.
+
+
+
+# Creamos la clase Cola
+class Cola:
+
+    # Inicializamos nuestra clase y creamos una variable
+    # llamada mi mi_cola que es una lista vacia.
+    
+    def _init_(self):
+        self.mi_cola = []
+
+
+    # Verificamos si la lista esta vacia
+    # En caso de no estar vacia nos devuelve los elementos que 
+    # los componen.
+
+    def esta_vacia(self):
+        if not self.mi_cola:
+            print("Cola Vacia")
+        else:
+            print("Cola con elementos", self.mi_cola)
