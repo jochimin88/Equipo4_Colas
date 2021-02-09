@@ -6,7 +6,12 @@ mi_cola = []
 
 # Imprimimos en pantalla
 print(mi_cola)
+    
+mi_cola[2]
+# El Resultado sera "Josue", porque los arreglos comienzan en cero.
 
+mi_cola[5]
+# El Resultado sera "Jochimin", porque los arreglos comienzan en cero.
 # En la terminal debemos ver los siguiente resultado:
 
 #  []
@@ -41,3 +46,20 @@ mi_cola.append("Polanco")
 # Mostramos el resultado en pantalla.
 
 print(mi_cola)
+# Resultado sera:
+['Joselito', 'Chantal', 'Josue', 'Mijarex', 'Francelys', 'Jochimin', 'Polanco']
+
+
+# Para Leer un elemento en una cola.
+# en ese caso utilizaremos los index del arreglo
+# de nuestra lista, para acceder a dicho indice utilizamos
+# los corchetes y dentro de estos assignamos el numero del indice que queremos.
+
+mi_cola[0] # Este indice muestra la posicion en la lista
+mi_cola[3] # El Resultado sera "Joselito", porque los arreglos comienzan en cero.
+# El Resultado sera "J", porque los arreglos comienzan en cero.
+
+
+# Para realizar algo mas dinamico con las listas
+# crearemos una clase llamada Cola y agregaremos metodos
+# para interactuar y personalizar los metodos ya existentes de las listas.
