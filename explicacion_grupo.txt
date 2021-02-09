@@ -123,6 +123,7 @@ milista.reverse()
 
 # ['8am,5pm', ['dias_no_laborables', ['Sab', 'Dom']], 'Viernes', 'Jueves', 'Miércoles', 'Martes', 'Lunes']
 
+
 ################################
 ######### Jochimin #############
 ################################
@@ -131,6 +132,7 @@ milista.reverse()
 
 ◦ Añadir elemento en una cola
 ◦ Leer un elemento en una cola
+
 
 ################################
 ######## Mijarex y Josue #######
