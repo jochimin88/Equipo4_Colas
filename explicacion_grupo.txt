@@ -24,7 +24,7 @@ personas comprando en un supermercado, esperando para entrar a ver un partido de
 una pequeña peluquería, etc. La idea esencial es que son todos líneas de espera. 
 
 
-######################################################################################################################################
+#################################################################################################################
 
 ################################
 ######### Polanco ##############
@@ -34,21 +34,20 @@ una pequeña peluquería, etc. La idea esencial es que son todos líneas de espe
 ########## ¿Qué es una lista? ##########
 ########################################
 
-Una lista es una estructura de datos y un tipo de dato en python con características especiales. 
-Lo especial de las listas en Python es que nos permiten almacenar cualquier tipo de valor como enteros,
-cadenas y hasta otras funciones; por ejemplo:
+Las listas son conjuntos ordenados de elementos (números, cadenas, listas, etc). 
+Las listas se delimitan por corchetes ([ ]) y los elementos se separan por comas.
 
-milista = [1, 2.5, 'Chantal', 30, 4]
+dias_de_trabajo = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes"]
 
 Una lista es un arreglo de elementos donde podemos ingresar cualquier tipo de dato, para acceder a estos
 datos podemos hacer mediante un índice.
 
-print(milista[0]) # 1
-print(milista[1]) # 2.5
-print(milista[2]) # Chantal
+print(dias_de_trabajo[0]) # Lunes
+print(dias_de_trabajo[1]) # Martes
+print(dias_de_trabajo[2]) # Miercoles
 
 
-######################################################################################################################################
+#################################################################################################################
 
 ################################
 ######### Joselito y Francelys #
@@ -69,18 +68,26 @@ Sirve para agregar un elemento al final de una lista en python, es muy sencillo 
 solo se coloca el nombre de ella que vamos a modificar seguido de un punto, el método (append en este caso) 
 y luego entre paréntesis el elemento a agregar.
 
-milista.append(10) # [2, 5, 'Grupo4', 1.2, 5, 10]
-milista.append([2,5]) # [2, 5, 'Grupo4', 1.2, 5, [2, 5]]
+dias_de_trabajo = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes"]
+
+milista.append("Sabado") # ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sabado"]
+milista.append("Domingo") # ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sabado", Domingo]
 
 Podemos agregar cualquier tipo de elemento a una lista, pero tengan en cuenta lo que pasa cuando agregamos una 
 lista dentro de otra, esta lista se agrega como uno y solo un elemento.
+
+En palabras mas sencillas insertar un lista dentro de otra lista.
+
+diasLaborables.append(["dias_no_laborables", ["Sab","Dom"]])
+
+print(diasLaborables) # ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', ['dias_no_laborables', ['Sab', 'Dom']]]
 
 ## Extend() ##
 
 Extend también nos permite agregar elementos dentro de una lista, pero a diferencia de append al momento 
 de agregar una lista, cada elemento de esta lista se agrega como un elemento más dentro de la otra lista.
 
-milista.extend([2,5]) # [2, 5, 'Grupo4', 1.2, 5, 2, 5]
+diasLaborables.extend([8am,5pm]) # ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', ['dias_no_laborables', ['Sab', 'Dom']], '8am, 5pm']
 
 ## Remove() ##
 
