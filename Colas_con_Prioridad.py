@@ -4,7 +4,7 @@
 
 from queue import PriorityQueue 
 
-class Curso(object):
+class Curso():
     
     def __init__(self, prioridad, nombre):
         self.prioridad = prioridad
