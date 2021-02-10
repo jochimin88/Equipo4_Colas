@@ -3,8 +3,14 @@
 #Es generalmente utilizado en programas multi-hilo, ya que provee una forma de intercambiar información entre threads de manera segura.
 
 #Priority Queue (cola de prioridad): el ítem de menor valor es el primero en ser retornado.
-from queue import PriorityQueue 
+from queue import PriorityQueue
 
+
+def eliminaMayorPrioridad(self):
+    self.queue = self.queue[1:]
+
+
+PriorityQueue.eliminaMayorPrioridad = eliminaMayorPrioridad
 
 class Curso():#Creando una clase llamada curso#
     
@@ -23,6 +29,8 @@ cursos = PriorityQueue() # creamos una variables de nombre curso instanciando la
 cursos.put(Curso(3, 'Python'))#agregando las colas con el metodo put#
 cursos.put(Curso(10, 'C++'))#agregando las colas con el metodo put#
 cursos.put(Curso(1, 'java'))#agregando las colas con el metodo put#
+
+cursos.eliminaMayorPrioridad()
 
 while not cursos.empty():# haciendo un ciclo preguntando si esta vacio#
     c = cursos.get()
