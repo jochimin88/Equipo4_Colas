@@ -5,11 +5,11 @@
 #Priority Queue (cola de prioridad): el ítem de menor valor es el primero en ser retornado.
 from queue import PriorityQueue
 
-
+# Declaración de función que elimina elemento de mayor prioridad en queue
 def eliminaMayorPrioridad(self):
     self.queue = self.queue[1:]
 
-
+# Asignación de la función eliminaMayorPrioridad a un método del mismo nombre de la clase PriorityQueue
 PriorityQueue.eliminaMayorPrioridad = eliminaMayorPrioridad
 
 class Curso():#Creando una clase llamada curso#
