@@ -57,7 +57,7 @@ print(mi_cola)
 
 mi_cola[0] # Este indice muestra la posicion en la lista
 mi_cola[3] # El Resultado sera "Joselito", porque los arreglos comienzan en cero.
-# El Resultado sera "J", porque los arreglos comienzan en cero.
+# El Resultado sera "Mijarex", porque los arreglos comienzan en cero.
 
 
 # Para realizar algo mas dinamico con las listas
