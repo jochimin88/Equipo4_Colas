@@ -5,13 +5,6 @@
 #Priority Queue (cola de prioridad): el ítem de menor valor es el primero en ser retornado.
 from queue import PriorityQueue
 
-# Declaración de función que elimina elemento de mayor prioridad en queue
-def eliminaMayorPrioridad(self):
-    self.queue = self.queue[1:]
-
-# Asignación de la función eliminaMayorPrioridad a un método del mismo nombre de la clase PriorityQueue
-PriorityQueue.eliminaMayorPrioridad = eliminaMayorPrioridad
-
 class Curso():#Creando una clase llamada curso#
     
     def __init__(self, prioridad, nombre):# Aqui creamos un iniciador colocamos a self con los siguientes parametros#
@@ -29,8 +22,6 @@ cursos = PriorityQueue() # creamos una variables de nombre curso instanciando la
 cursos.put(Curso(3, 'Python'))#agregando las colas con el metodo put#
 cursos.put(Curso(10, 'C++'))#agregando las colas con el metodo put#
 cursos.put(Curso(1, 'java'))#agregando las colas con el metodo put#
-
-cursos.eliminaMayorPrioridad()
 
 while not cursos.empty():# haciendo un ciclo preguntando si esta vacio#
     c = cursos.get()
